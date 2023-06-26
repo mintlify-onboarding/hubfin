@@ -1,0 +1,82 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "FinHub",
+  "logo": {
+    "dark": "/logo.png",
+    "light": "/logo.png"
+  },
+  "favicon": "/favicon.png",
+  "colors": {
+    "primary": "#2B56A6",
+    "light": "#3263BF",
+    "dark": "#2B56A6"
+  },
+  "anchors": [
+    {
+      "name": "SEPA's API",
+      "icon": "square-terminal",
+      "url": "https://finhub.cloud/sepas-api"
+    },
+    {
+      "name": "API Explore",
+      "icon": "magnifying-glass",
+      "url": "https://finhub.cloud/api-explore"
+    },
+    {
+      "name": "Community",
+      "icon": "messages",
+      "url": "https://finhub.cloud/developers-community"
+    }
+  ],
+  "topbarLinks": [
+    {
+      "name": "Log In",
+      "url": "https://finhub.cloud"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Get Started",
+    "url": "https://finhub.cloud/solutions"
+  },
+  "navigation": [
+    {
+      "group": "Home",
+      "pages": ["introduction"]
+    },
+    {
+      "group": "Merchant API",
+      "pages": [
+        "api-reference/merchant/pay-3d-secure",
+        "api-reference/merchant/get-status-by-payment-id",
+        "api-reference/merchant/create-status-by-transaction-id",
+        "api-reference/merchant/create-refund",
+        "api-reference/merchant/create-transaction",
+        "api-reference/merchant/get-terminals",
+        "api-reference/merchant/get-saved-cards",
+        "api-reference/merchant/register-token",
+        "api-reference/merchant/delete-token",
+        "api-reference/merchant/pay-with-token",
+        "api-reference/merchant/create-payment-redirect"
+      ]
+    },
+    {
+      "group": "Country API",
+      "pages": [
+        "api-reference/country/post-countrydata",
+        "api-reference/country/post-listdata"
+      ]
+    },
+    {
+      "group": "IP API",
+      "pages": [
+        "api-reference/ip/get-ipaddress"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "twitter": "https://twitter.com/Finhubfinance",
+    "facebook": "https://fb.me/Finhubcom",
+    "linkedin": "https://www.linkedin.com/company/finhubcom/%20",
+    "website": "https://finhub.cloud/"
+  }
+}
