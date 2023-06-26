@@ -1,15 +1,15 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "FinHub",
+  "name": "HubFin",
   "logo": {
     "dark": "/logo.png",
     "light": "/logo.png"
   },
   "favicon": "/favicon.png",
   "colors": {
-    "primary": "#2B56A6",
-    "light": "#3263BF",
-    "dark": "#2B56A6"
+    "primary": "#2C9B5F",
+    "light": "#71D98C",
+    "dark": "#1A7041"
   },
   "anchors": [
     {
